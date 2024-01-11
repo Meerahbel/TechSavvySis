@@ -27,21 +27,35 @@
   .stack-hold {
     animation: borders 5s ease infinite;
   }
-}
-@keyframes borders {
-  0% {
-    border-top: 1px solid #1c1e22;
+  @keyframes borders {
+    0% {
+      border-top: 1px solid #1c1e22;
+    }
+    25% {
+      border-right: 1px solid #1c1e22;
+    }
+    50% {
+      border-bottom: 1px solid #1c1e22;
+    }
+    75% {
+      border-left: 1px solid #1c1e22;
+    }
+    100% {
+      border: 1px solid #ec4899;
+    }
   }
-  25% {
-    border-right: 1px solid #1c1e22;
+
+  .bounce {
+    animation: bounce 2s ease-in-out infinite;
   }
-  50% {
-    border-bottom: 1px solid #1c1e22;
-  }
-  75% {
-    border-left: 1px solid #1c1e22;
-  }
-  100% {
-    border: 1px solid #ec4899;
+
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(-20px) rotate(90deg);
+    }
+    50% {
+      transform: translateY(20px) rotate(90deg);
+    }
   }
 }
