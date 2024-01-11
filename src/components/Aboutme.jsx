@@ -1,7 +1,7 @@
 const Aboutme = () => {
   return (
-    <section className="py-4 px-3 md:px-[60px]">
-      <div className="flex gap-10 items-center">
+    <section className="pb-40 px-3 md:px-[60px]">
+      <div className="flex gap-10 items-center pb-5">
         <p className="text-[#a6aec2] text-[1.5rem] lg:text-[2rem]">
           <span className="text-[#ec4899]">01.</span> About me
         </p>

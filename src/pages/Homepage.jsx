@@ -2,6 +2,7 @@ import Aboutme from "../components/Aboutme";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Links from "../components/Links";
+import Works from "../components/Works";
 
 const Homepage = () => {
   return (
@@ -10,6 +11,7 @@ const Homepage = () => {
       <Intro />
       <Links />
       <Aboutme />
+      <Works />
     </main>
   );
 };
