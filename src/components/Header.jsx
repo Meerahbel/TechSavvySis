@@ -12,7 +12,7 @@ const Header = () => {
     <header className="flex py-4 px-3 md:px-[60px] justify-between items-center bg-transparent">
       <div className="flex gap-3 items-center">
         <img src="/images/icon2.png" alt="icon" className="w-5 h-5" />
-        <p className="text-[#ec4899] tracking-widest">MIRABEL.</p>
+        <p className="text-[#ec4899] tracking-widest">TECHSAVVYSIS</p>
       </div>
       <ul className="hidden md:flex md:gap-10 lg:gap-20">
         <li className="text-[#a6aec2]">
