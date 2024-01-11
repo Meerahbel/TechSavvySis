@@ -1,3 +1,4 @@
+import Aboutme from "../components/Aboutme";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Links from "../components/Links";
@@ -8,6 +9,7 @@ const Homepage = () => {
       <Header />
       <Intro />
       <Links />
+      <Aboutme />
     </main>
   );
 };

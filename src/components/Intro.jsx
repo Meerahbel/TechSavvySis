@@ -1,6 +1,6 @@
 const Intro = () => {
   return (
-    <main className="pt-40 md:pt-28 pb-10 px-3 md:px-[60px] min-h-screen">
+    <main className="py-40 md:pt-28  px-3 md:px-[60px] min-h-screen">
       <section className="flex flex-col gap-10">
         <div className="flex flex-col font-bold">
           <p className="pr-2 text-white text-[2rem] md:text-[4rem] lg:text-[6rem]">
