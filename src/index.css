@@ -14,4 +14,13 @@
       transform: translateX(0);
     }
   }
+  .float-links {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .float-links:hover {
+    transform: scale(
+      1.5
+    ); /* Adjust the scale value for desired bounce effect */
+  }
 }
