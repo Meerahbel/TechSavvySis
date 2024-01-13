@@ -1,6 +1,6 @@
 const Work1 = () => {
   return (
-    <div className="flex flex-col bg-[#1c1e22] p-5 rounded-md">
+    <div className="flex flex-col bg-[#1c1e22] p-5 rounded-md drop-shadow-xl">
       <img
         src="/images/heal.png"
         alt="project"
