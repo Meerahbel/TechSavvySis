@@ -1,6 +1,6 @@
 const Links = () => {
   return (
-    <nav className="hidden lg:flex flex-col gap-10 fixed right-20 bottom-5 items-center">
+    <nav className="hidden lg:flex flex-col gap-10 fixed right-0 bottom-5 items-center">
       <a href="">
         <img
           src="/images/github.png"

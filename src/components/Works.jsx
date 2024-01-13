@@ -1,3 +1,5 @@
+import Workcard from "./Workcard";
+
 const Works = () => {
   return (
     <section className="pb-40 px-3 md:px-[60px]">
@@ -20,6 +22,7 @@ const Works = () => {
       <p className="text-[#a6aec2] text-[1.2rem]">
         Click each project to view.
       </p>
+      <Workcard />
     </section>
   );
 };
