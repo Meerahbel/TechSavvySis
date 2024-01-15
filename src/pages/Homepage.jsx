@@ -1,4 +1,6 @@
 import Aboutme from "../components/Aboutme";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Links from "../components/Links";
@@ -12,6 +14,8 @@ const Homepage = () => {
       <Links />
       <Aboutme />
       <Works />
+      <Contact />
+      <Footer />
     </main>
   );
 };
