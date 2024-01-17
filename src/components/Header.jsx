@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [dropdown, setDropdown] = useState(false);
@@ -24,9 +24,11 @@ const Header = () => {
         <li className="text-[#a6aec2]">
           <span className="text-[#ec4899]">03.</span> Contact
         </li>
-        <li className="text-[#a6aec2]">
-          <span className="text-[#ec4899]">04.</span> Resume
-        </li>
+        <a href="">
+          <li className="text-[#a6aec2]">
+            <span className="text-[#ec4899]">04.</span> Resume
+          </li>
+        </a>
       </ul>
       <div onClick={handleMenu} className="block md:hidden">
         <img src="/images/menu.png" alt="menu" className="w-6 h-6" />

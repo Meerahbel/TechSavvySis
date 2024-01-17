@@ -1,6 +1,9 @@
 const Contact = () => {
   return (
-    <section className="flex flex-col pb-20  md:pb-40 px-3 md:px-[60px]">
+    <section
+      className="flex flex-col pb-20  md:pb-40 px-3 md:px-[60px]"
+      id="contact"
+    >
       <p className="text-[#a6aec2] text-[1.5rem] lg:text-[2rem] text-center hidden lg:block">
         <span className="text-[#ec4899]">03.</span> Contact me!
       </p>
@@ -23,9 +26,11 @@ const Contact = () => {
         landing pages to huge projects, freelance jobs, etc. If you have other
         requests or questions, please by all means.. slide in!
       </p>
-      <button className="w-fit border border-[#ec4899] text-[#a6aec2] py-3 px-8 mx-auto mt-20">
-        Send a message
-      </button>
+      <a href="mailto:mirabelugoji@gmail.com" className="w-fit  mx-auto mt-20">
+        <button className="w-fit border border-[#ec4899] text-[#a6aec2] py-3 px-8">
+          Send a message
+        </button>
+      </a>
     </section>
   );
 };
