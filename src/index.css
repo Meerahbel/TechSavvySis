@@ -47,6 +47,9 @@
 
   .bounce {
     animation: bounce 2s ease-in-out infinite;
+    /* position: relative;
+    left: -170px;
+    top: 210px; */
   }
 
   @keyframes bounce {

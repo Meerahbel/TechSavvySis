@@ -1,11 +1,15 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [dropdown, setDropdown] = useState(false);
 
   const handleMenu = () => {
     setDropdown((prev) => !prev);
+  };
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    section?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -15,13 +19,22 @@ const Header = () => {
         <p className="text-[#ec4899] tracking-widest">TECHSAVVYSIS</p>
       </div>
       <ul className="hidden md:flex md:gap-10 lg:gap-20">
-        <li className="text-[#a6aec2]">
+        <li
+          onClick={() => scrollToSection("about")}
+          className="text-[#a6aec2] cursor-pointer"
+        >
           <span className="text-[#ec4899]">01.</span> About me
         </li>
-        <li className="text-[#a6aec2]">
+        <li
+          onClick={() => scrollToSection("works")}
+          className="text-[#a6aec2] cursor-pointer"
+        >
           <span className="text-[#ec4899]">02.</span> Works
         </li>
-        <li className="text-[#a6aec2]">
+        <li
+          onClick={() => scrollToSection("contact")}
+          className="text-[#a6aec2] cursor-pointer"
+        >
           <span className="text-[#ec4899]">03.</span> Contact
         </li>
         <a href="">
@@ -36,18 +49,38 @@ const Header = () => {
 
       {dropdown && (
         <ul className="w-full absolute z-10 top-[50px] left-0 flex flex-col items-center bg-[#121418] gap-10 py-10 text-2xl md:hidden slide-right">
-          <li className="text-[#a6aec2] border-b border-white/5 pb-5 w-full text-center">
+          <li
+            onClick={() => {
+              scrollToSection("about");
+              handleMenu();
+            }}
+            className="text-[#a6aec2] border-b border-white/5 pb-5 w-full text-center cursor-pointer"
+          >
             <span className="text-[#ec4899]">01.</span> About me
           </li>
-          <li className="text-[#a6aec2] border-b border-white/5 pb-5 w-full text-center">
+          <li
+            onClick={() => {
+              scrollToSection("works");
+              handleMenu();
+            }}
+            className="text-[#a6aec2] border-b border-white/5 pb-5 w-full text-center cursor-pointer"
+          >
             <span className="text-[#ec4899]">02.</span> Works
           </li>
-          <li className="text-[#a6aec2] border-b border-white/5 pb-5 w-full text-center">
+          <li
+            onClick={() => {
+              scrollToSection("contact");
+              handleMenu();
+            }}
+            className="text-[#a6aec2] border-b border-white/5 pb-5 w-full text-center cursor-pointer"
+          >
             <span className="text-[#ec4899]">03.</span> Contact
           </li>
-          <li className="text-[#a6aec2] pb-5 w-full text-center">
-            <span className="text-[#ec4899]">04.</span> Resume
-          </li>
+          <a href="">
+            <li className="text-[#a6aec2] pb-5 w-full text-center">
+              <span className="text-[#ec4899]">04.</span> Resume
+            </li>
+          </a>
         </ul>
       )}
     </header>

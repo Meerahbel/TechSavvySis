@@ -20,7 +20,7 @@ const Intro = () => {
       <button className="bg-[#ec4899] md:hidden text-[#121418] w-fit py-3 px-10 rounded-sm mt-5 font-semibold">
         View resume
       </button>
-      <p className="absolute bottom-10 left-0 text-[#a6aec2] font-medium bounce">
+      <p className="md:hidden text-[#a6aec2] font-medium bounce relative top-[230px] md:top-[480px] left-[-48%] md">
         Scroll down
       </p>
     </main>
