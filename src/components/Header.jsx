@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex py-4 px-3 md:px-[60px] justify-between items-center bg-[#121418]/90 fixed z-[999] top-0 left-0 right-0">
+    <header className="flex py-4 px-3 md:px-[60px] xl:px-[82px] justify-between items-center bg-[#121418]/90 fixed z-[999] top-0 left-0 right-0">
       <div className="flex gap-3 items-center">
         <img src="/images/icon2.png" alt="icon" className="w-5 h-5" />
         <p className="text-[#ec4899] tracking-widest">TECHSAVVYSIS</p>

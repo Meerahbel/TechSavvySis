@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <section
-      className="flex flex-col pb-20  md:pb-40 px-3 md:px-[60px]"
+      className="flex flex-col pb-20  md:pb-40 px-3 md:px-[60px] xl:px-[82px]"
       id="contact"
     >
       <p className="text-[#a6aec2] text-[1.5rem] lg:text-[2rem] text-center hidden lg:block">

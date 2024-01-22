@@ -2,7 +2,7 @@ import Links2 from "./Links2";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col pb-20 px-3 md:px-[60px] justify-center gap-10 bg-[#121418]">
+    <footer className="flex flex-col pb-20 px-3 md:px-[60px] xl:px-[82px] justify-center gap-10 bg-[#121418]">
       <Links2 />
       <div className="flex flex-col gap-2">
         <p className="text-[#a6aec2] text-center">

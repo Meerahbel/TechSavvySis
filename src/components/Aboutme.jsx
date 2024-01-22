@@ -8,7 +8,10 @@ const Aboutme = () => {
   }, []);
 
   return (
-    <section className="pb-20 md:pb-40 px-3 md:px-[60px]" id="about">
+    <section
+      className="pb-20 md:pb-40 px-3 md:px-[60px] xl:px-[82px]"
+      id="about"
+    >
       <div className="flex gap-10 items-center pb-5">
         <p className="text-[#a6aec2] text-[1.5rem] lg:text-[2rem]">
           <span className="text-[#ec4899]">01.</span> About me
