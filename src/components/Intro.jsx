@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Laptop from "./Laptop";
 
 const Intro = () => {
   const scrollToSection = (id) => {
@@ -15,7 +16,7 @@ const Intro = () => {
   return (
     <main className="pb-40 pt-48 md:pt-28  px-3 md:px-[60px] min-h-screen">
       <section className="flex flex-col gap-10">
-        <div className="flex flex-col font-bold">
+        <div className="flex flex-col font-bold z-[999]">
           <p
             data-aos="zoom-in"
             data-aos-duration="2000"
@@ -61,6 +62,7 @@ const Intro = () => {
       <p className="md:hidden text-[#a6aec2] font-medium bounce relative top-[230px] md:top-[480px] left-[-48%] md">
         Scroll down
       </p>
+      <Laptop />
     </main>
   );
 };
