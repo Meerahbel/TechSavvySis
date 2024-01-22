@@ -1,6 +1,6 @@
 const Links = () => {
   return (
-    <nav className="hidden lg:flex flex-col gap-10 fixed right-0 bottom-5 items-center">
+    <nav className="hidden lg:flex flex-col gap-10 fixed right-0 xl:right-3 bottom-5 items-center">
       <a href="https://github.com/Meerahbel" target="/">
         <img
           src="/images/github.png"
