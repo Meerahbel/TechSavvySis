@@ -25,7 +25,7 @@ const Aboutme = () => {
             a keen eye for design and a commitment to crafting engaging and
             responsive user interfaces.
           </p>
-          <a href="MyResume.pdf" className="w-fit">
+          <a href="MyResume.pdf" target="/" className="w-fit">
             <button className="border border-[#ec4899] text-[#ec4899] w-fit py-3 px-10 rounded-sm hover:bg-[#ec4899]/20 transition-all ease-in-out">
               View my resume
             </button>

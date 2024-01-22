@@ -1,6 +1,6 @@
 const Links2 = () => {
   return (
-    <div className="flex lg:hidden justify-evenly">
+    <div className="flex justify-evenly lg:hidden ">
       <a href="https://github.com/Meerahbel" target="/">
         <img
           src="/images/github.png"

@@ -16,7 +16,7 @@ const Intro = () => {
   return (
     <main className="pb-40 pt-48 md:pt-28 xl:pt-40  px-3 md:px-[60px] xl:px-[82px] min-h-screen z-[999]">
       <section className="flex flex-col gap-10">
-        <div className="flex flex-col font-bold ">
+        <div className="flex flex-col font-bold">
           <p
             data-aos="zoom-in"
             data-aos-duration="2000"
@@ -50,11 +50,11 @@ const Intro = () => {
           Contact me!
         </button>
       </section>
-      <a href="MyResume.pdf" target="/" className="w-fit">
+      <a href="MyResume.pdf" target="/" className="md:hidden">
         <button
           data-aos="fade-right"
           data-aos-delay="900"
-          className="bg-[#ec4899] md:hidden text-[#121418] w-fit py-3 px-10 rounded-sm mt-5 font-semibold"
+          className="bg-[#ec4899] text-[#121418] w-fit py-3 px-10 rounded-sm mt-5 font-semibold"
         >
           View resume
         </button>
@@ -62,7 +62,6 @@ const Intro = () => {
       <p className="md:hidden text-[#a6aec2] font-medium bounce relative top-[230px] md:top-[480px] left-[-48%] md">
         Scroll down
       </p>
-      <Laptop />
     </main>
   );
 };

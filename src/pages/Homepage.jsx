@@ -4,7 +4,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Links from "../components/Links";
-import Loader from "../components/Loader";
 import Works from "../components/Works";
 import ScrollToTop from "../ScrollToTop";
 
@@ -18,8 +17,8 @@ const Homepage = () => {
         <Aboutme />
         <Works />
         <Contact />
+        <Footer />
       </main>
-      <Footer />
       <ScrollToTop />
     </>
   );
