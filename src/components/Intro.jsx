@@ -49,13 +49,15 @@ const Intro = () => {
           Contact me!
         </button>
       </section>
-      <button
-        data-aos="fade-right"
-        data-aos-delay="900"
-        className="bg-[#ec4899] md:hidden text-[#121418] w-fit py-3 px-10 rounded-sm mt-5 font-semibold"
-      >
-        View resume
-      </button>
+      <a href="MyResume.pdf" target="/" className="w-fit">
+        <button
+          data-aos="fade-right"
+          data-aos-delay="900"
+          className="bg-[#ec4899] md:hidden text-[#121418] w-fit py-3 px-10 rounded-sm mt-5 font-semibold"
+        >
+          View resume
+        </button>
+      </a>
       <p className="md:hidden text-[#a6aec2] font-medium bounce relative top-[230px] md:top-[480px] left-[-48%] md">
         Scroll down
       </p>

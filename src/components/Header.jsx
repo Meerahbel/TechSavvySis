@@ -37,7 +37,7 @@ const Header = () => {
         >
           <span className="text-[#ec4899]">03.</span> Contact
         </li>
-        <a href="">
+        <a href="MyResume.pdf" target="/">
           <li className="text-[#a6aec2]">
             <span className="text-[#ec4899]">04.</span> Resume
           </li>
@@ -76,8 +76,11 @@ const Header = () => {
           >
             <span className="text-[#ec4899]">03.</span> Contact
           </li>
-          <a href="">
-            <li className="text-[#a6aec2] pb-5 w-full text-center">
+          <a href="MyResume.pdf" target="/">
+            <li
+              onClick={handleMenu}
+              className="text-[#a6aec2] pb-5 w-full text-center"
+            >
               <span className="text-[#ec4899]">04.</span> Resume
             </li>
           </a>
