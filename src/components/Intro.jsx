@@ -14,7 +14,7 @@ const Intro = () => {
   }, []);
 
   return (
-    <main className="pb-40 pt-48 md:pt-28  px-3 md:px-[60px] xl:px-[82px] min-h-screen">
+    <main className="pb-40 pt-48 md:pt-28 xl:pt-40  px-3 md:px-[60px] xl:px-[82px] min-h-screen">
       <section className="flex flex-col gap-10">
         <div className="flex flex-col font-bold z-[999]">
           <p
