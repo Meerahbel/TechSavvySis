@@ -6,11 +6,11 @@ const Work1 = ({ handleMouseout, handleOver, boxHover }) => {
       onMouseOut={handleMouseout}
       className="flex flex-col bg-[#1c1e22] p-5 rounded-md drop-shadow-xl"
     >
-      <div className="relative">
+      <div className="relative w-full">
         <img
           src="/images/heal.png"
           alt="project"
-          className="h-[200px] w-[350px] object-cover"
+          className="h-[250px] w-full object-cover"
         />
         {boxHover === "box1" && (
           <div className="bg-[#ec4899]/30 absolute left-0 top-0 w-full h-full flex items-center spread">
