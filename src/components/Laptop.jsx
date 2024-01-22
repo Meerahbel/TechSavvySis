@@ -5,7 +5,7 @@ const Laptop = () => {
         <img
           src="/images/laptop.png"
           alt="laptop"
-          classname="xl:w-10 xl:h-10"
+          classname="xl:w-20 xl:h-20"
         />
       </div>
 
@@ -13,7 +13,7 @@ const Laptop = () => {
         <img
           src="/images/laptop.png"
           alt="laptop"
-          classname="xl:w-10 xl:h-10"
+          classname="xl:w-20 xl:h-20"
         />
       </div>
 
@@ -21,7 +21,7 @@ const Laptop = () => {
         <img
           src="/images/laptop.png"
           alt="laptop"
-          classname="xl:w-10 xl:h-10"
+          classname="xl:w-20 xl:h-20"
         />
       </div>
 
@@ -29,7 +29,7 @@ const Laptop = () => {
         <img
           src="/images/laptop.png"
           alt="laptop"
-          classname="xl:w-10 xl:h-10"
+          classname="xl:w-20 xl:h-20"
         />
       </div>
 
@@ -37,7 +37,7 @@ const Laptop = () => {
         <img
           src="/images/laptop.png"
           alt="laptop"
-          classname="xl:w-10 xl:h-10"
+          classname="xl:w-20 xl:h-20"
         />
       </div>
 
@@ -45,7 +45,7 @@ const Laptop = () => {
         <img
           src="/images/laptop.png"
           alt="laptop"
-          classname="xl:w-10 xl:h-10"
+          classname="xl:w-20 xl:h-20"
         />
       </div>
 
@@ -53,7 +53,7 @@ const Laptop = () => {
         <img
           src="/images/laptop.png"
           alt="laptop"
-          classname="xl:w-10 xl:h-10"
+          classname="xl:w-20 xl:h-20"
         />
       </div>
 
@@ -61,7 +61,7 @@ const Laptop = () => {
         <img
           src="/images/laptop.png"
           alt="laptop"
-          classname="xl:w-10 xl:h-10"
+          classname="xl:w-20 xl:h-20"
         />
       </div>
 
@@ -69,7 +69,7 @@ const Laptop = () => {
         <img
           src="/images/laptop.png"
           alt="laptop"
-          classname="xl:w-10 xl:h-10"
+          classname="xl:w-20 xl:h-20"
         />
       </div>
 
@@ -77,7 +77,7 @@ const Laptop = () => {
         <img
           src="/images/laptop.png"
           alt="laptop"
-          classname="xl:w-10 xl:h-10"
+          classname="xl:w-20 xl:h-20"
         />
       </div>
     </div>
