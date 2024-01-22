@@ -29,7 +29,7 @@ const Links2 = () => {
           className="w-6 h-6 float-links"
         />
       </a>
-      <a href="​https://wa.me/09021384077">
+      <a href="https://wa.me/+2349021384077">
         <img
           src="/images/whatsapp.png"
           alt="whatsapp icon"
