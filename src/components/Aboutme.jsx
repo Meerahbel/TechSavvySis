@@ -35,7 +35,7 @@ const Aboutme = () => {
         <div
           data-aos="flip-left"
           data-aos-duration="2000"
-          className="flex justify-center md:justify-start"
+          className="flex justify-center md:justify-start xl:ml-32"
         >
           <div className="w-[350px] md:w-[800px] lg:w-[300px] h-[400px] drop-shadow-xl bg-[#1c1e22] rounded-md grid grid-cols-2 px-5 md:px-10 lg:px-5 pt-8">
             <div className="flex gap-2 w-fit h-fit border border-[#ec4899] p-3 rounded-md stack-hold">
