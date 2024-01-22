@@ -1,6 +1,6 @@
 const Laptop = () => {
   return (
-    <div className="laptop--cont bg-blue-500">
+    <div className="laptop--cont">
       <div className="laptop1">
         <img src="/images/laptop.png" alt="laptop" className="xl:w-6 xl:h-6" />
       </div>

@@ -126,8 +126,8 @@
   }
 
   .laptop--cont {
-    width: 98%;
-    height: 100%;
+    width: 90%;
+    height: 60%;
     display: grid;
     grid-template-columns: repeat(10, 0.1fr);
     gap: 20px;
@@ -135,7 +135,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -3;
+    z-index: 999;
   }
   .laptop--cont > div {
     height: 80px;
